@@ -1,6 +1,9 @@
 div {
     max-width: 1600px;
 }
+#content {
+    margin: 0 auto
+}
 p{
     margin: 0 auto;
 }
