@@ -2,9 +2,6 @@
     max-width: 1600px;
     margin: 0 auto
 }
-#logo {
-    width: 80px;
-}
 nav a {
     text-align: center;
     color:#222E50;
@@ -74,6 +71,12 @@ footer p {
     font-size: 1.2em;
     text-decoration: underline;
 }
+.logo {
+    width: 80px;
+}
 .icon {
     width: 80px;
+}
+#hero-img {
+    width: 100%;
 }
