@@ -49,7 +49,7 @@ h4 {
     color:#222E50;
 }
 .book, .join {
-    background-color: #6B9AC4;
+    background-color: #97D8C4;
     color:#222E50;
     text-decoration: none;
     font-family: 'Xanh Mono', sans-serif;
@@ -62,7 +62,7 @@ main section img {
     box-sizing: border-box;
 }
 .card-img{
-    border: 10px solid #d9c2a3
+    border: 10px solid #D0ADA7
 }
 .book:hover, .join:hover {
     background-color:#97D8C4;
@@ -72,26 +72,26 @@ main section img {
     background-color:#6B9AC4;
 }
 .msg {
-    background-color:#6B9AC4;
+    background-color:#222E50;
     padding: 35px;
 }
 .msg h2 {
-    color:#222E50;
+    color:#97D8C4;
 }
 .msg p {
-    color:#222E50;
+    color:#97D8C4;
     font-family: 'Xanh Mono', sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
 footer {
-    background-color:#6B9AC4;
-    color:#222E50;
+    background-color:#222E50;
+    color:#97D8C4;
     padding: 25px 50px;
     margin-top: 200px;
 }
 footer a {
-    color:#222E50;
+    color:#97D8C4;
     text-decoration: none;
 }
 footer a:hover {
