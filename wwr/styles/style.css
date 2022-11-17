@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Pacifico&family=Xanh+Mono&display=swap');
 
 #content {
     max-width: 1600px;
@@ -24,7 +24,7 @@ main section {
 }
 body {
     background-color: #6B9AC4;
-    font-family: 'Xanh Mono', sans-serif;
+    font-family: 'Xanh Mono', 'Josefin Slab',sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@ nav a:hover {
 }
 .home-title {
     color:#222E50;
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Pacifico', 'Xanh Mono',sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -52,7 +52,7 @@ h4 {
     background-color: #97D8C4;
     color:#222E50;
     text-decoration: none;
-    font-family: 'Xanh Mono', sans-serif;
+    font-family: 'Xanh Mono', 'Josefin Slab', sans-serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -80,7 +80,7 @@ main section img {
 }
 .msg p {
     color:#97D8C4;
-    font-family: 'Xanh Mono', sans-serif;
+    font-family: 'Josefin Slab','Xanh Mono', sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
