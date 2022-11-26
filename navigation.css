@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Pacifico&family=Xanh+Mono&display=swap');
+body{
+    text-align: center;
+    margin: 0;
+}
+h1 {
+    font-family: 'Pacifico', Xanh+Mono;
+    color: #222E50
+}
+nav {
+    background-color: #222E50;
+    padding: 15px 15px;
+    font-family: Xanh+Mono, Josefin+Slab;
+}
+nav a {
+    color: #6B9AC4;
+    margin: 5px;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+a:hover {
+    background-color: #222E50;
+    color: #97D8C4;
+}
+p {
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+    width: 80%;
+}
