@@ -80,7 +80,38 @@ body {
     width: 25%;
     height: 3em;
   }
-  
+  .tacobell {
+    height: 300px;
+    width: 200px;
+  }
+  .pose {
+    height: 300px;
+    width: 200px;
+  }
+  .family {
+    height: 200px;
+    width: 350px;
+  }
+  .friends {
+    height: 300px;
+    width: 200px;
+  }
+  .oregon {
+    height: 200px;
+    width:300px;
+  }
+  .wireframe1 {
+    height: 300px;
+    width: 200px; 
+  }
+  .wireframe2 {
+    height: 200px;
+    width: 200px;
+  }
+  .wireframe3 {
+    height: 200px;
+    width: 200px;
+  }
   .primary {
     background-color: var(--primary-color);
   }
