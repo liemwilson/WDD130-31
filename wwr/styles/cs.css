@@ -3,6 +3,11 @@
     max-width: 1600px;
     margin: 0 auto
 }
+#images {
+    display: grid;
+    grid-template-columns: 30% 5% 65%;
+    grid-template-rows: repeat(12, 50px);
+}
 .home-grid {
     display:grid;
     grid-template-columns: repeat(8, 1fr);
@@ -47,7 +52,7 @@ body {
     font-family: 'Xanh Mono', 'Josefin Slab',sans-serif;
     font-size: 1.2em;
     margin: 0;
-    padding: 0;
+    padding: 2em;
 }
 .join {
     background-color: #97D8C4;
@@ -58,41 +63,62 @@ body {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    grid-column: 3/4;
+    grid-row: 10/11;
+    max-width: 75px;
+    max-height: 30px;
+    text-align: center;
 }
 #cs-p-1{
+    margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    margin-top: 15px;
+    grid-template-columns: 30% 70%;
+    padding: 50px 50px;
+    text-align: left;
+
 }
-#about-us-msg {
-    grid-column: 4/9;
-    grid-row: 1/6;
-    margin-top: 50px;
+#message1 {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    padding-top: 5px;
+    font-family: 'Xanh Mono', sans-serif;
+    text-decoration: bold;
 }
-#cs-title h2 {
+#message2 {
+    grid-column: 3/4;
+    grid-row: 9/11;
+    padding-top: 5px;
+    font-family: 'Xanh Mono', sans-serif;
+}
+#cs-title1 {
     text-align: center;
     color:#222E50;
     font-family: 'Pacifico', sans-serif;
 }
-#cs-p-1 h3{
+#cs-title2 {
     text-align: center;
     text-decoration: bold;
     font-family: 'xanh Mono', sans-serif;
     color:#222E50;
     font-size: 20px;
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
-#cs-p-2 h4 {
+#cs-title3 {
     text-align: center;
     text-decoration: bold;
-    font-family: 'xanh Mono', sans-serif;
+    font-family: 'Xanh Mono', sans-serif;
     color:#222E50;
     font-size: 20px;
+    grid-column: 3/4;
+    grid-row: 8/9;
 }
 #nature-img1 {
     justify-items: left;
     width: 100%;
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 1/6;
+    margin-bottom: 10px;
     border: 10px solid #D0ADA7;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -102,7 +128,8 @@ body {
     justify-items: left;
     width: 100%;
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 7/12;
+    margin-top: 10px;
     border: 10px solid #D0ADA7;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -137,3 +164,27 @@ footer p {
     font-size: 1.2em;
     text-decoration: underline;
 }
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+    
