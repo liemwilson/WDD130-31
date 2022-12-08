@@ -129,6 +129,12 @@ main section img {
 }
 .msg h2 {
     color:#9FB57D;
+    font-family: 'Xanh Mono';
+}
+.fun-card h3 {
+    color: #9FB57D;
+    font-family: 'Pacifico';
+    font-size: 40px;
 }
 .msg p {
     color:#9FB57D;
