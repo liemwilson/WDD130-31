@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Pacifico&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster+Two&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto
@@ -37,7 +37,7 @@ main section {
 }
 body {
     background-color: #0B6E4F;
-    font-family: 'Xanh Mono', 'Josefin Slab',sans-serif;
+    font-family: 'Bree Serif', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -56,7 +56,7 @@ nav a:hover {
 }
 .home-title {
     color:#222E50;
-    font-family: 'Pacifico', 'Xanh Mono',sans-serif;
+    font-family: 'Lobster Two', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -67,7 +67,7 @@ h4 {
     background-color: #9FB57D;
     color:#074A35;
     text-decoration: none;
-    font-family: 'Xanh Mono', 'Josefin Slab', sans-serif;
+    font-family: 'Bree Serif', sans-serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -129,16 +129,16 @@ main section img {
 }
 .msg h2 {
     color:#9FB57D;
-    font-family: 'Xanh Mono';
+    font-family: 'Bree Serif';
 }
 .fun-card h3 {
     color: #9FB57D;
-    font-family: 'Pacifico';
+    font-family: 'Lobster Two';
     font-size: 40px;
 }
 .msg p {
     color:#9FB57D;
-    font-family: 'Josefin Slab','Xanh Mono', sans-serif;
+    font-family: 'Bree Serif', sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
