@@ -86,7 +86,7 @@ body {
     grid-row: 2/4;
     padding-top: 5px;
     font-family: 'Bree Serif', sans-serif;
-    text-decoration: bold;
+    text-decoration: none;
     color:#074A35
 }
 #message2 {
@@ -103,7 +103,7 @@ body {
 }
 #cs-title2 {
     text-align: center;
-    text-decoration: bold;
+    text-decoration: none;
     font-family: 'Lobster Two', sans-serif;
     color:#9FB57D;
     font-size: 20px;
@@ -112,7 +112,7 @@ body {
 }
 #cs-title3 {
     text-align: center;
-    text-decoration: bold;
+    text-decoration: none;
     font-family: 'Lobster Two', sans-serif;
     color:#9FB57D;
     font-size: 20px;
